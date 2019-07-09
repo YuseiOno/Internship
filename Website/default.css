@@ -1,0 +1,226 @@
+@import url(https://fonts.googleapis.com/earlyaccess/roundedmplus1c.css);
+html{
+	min-height:100%;
+	position:relative;
+}
+body{
+	font-family:'Rounded Mplus 1c';
+	margin:0 0 130px 0;
+}
+header{
+	border-bottom:solid 3px;
+	margin:20px 0 0 40px;
+}
+p{
+	font-size:18px;
+}
+figure.logo img{
+	width:100px;
+	float:left;
+	margin:0;
+}
+header h1{
+	font-size:50px;
+	margin:0;
+}
+nav{
+	text-align:right;
+}
+nav ul{
+	list-style-type:none;
+	margin:10px 10px 0 0;
+}
+nav li{
+	display:inline;
+	margin-right:10px;
+}
+nav li a:hover{
+	color:DeepSkyBlue;
+}
+nav a{
+	text-decoration:none;
+	color:white;
+}
+h1 a,.menu a{
+	text-decoration:none;
+	color:black;
+}
+.menu{
+	width:300px;
+	margin:40px 30px 80px 0;
+	overflow-y:auto;
+	float:left;
+	
+}
+.menu li{
+	list-style:none;
+	border-left:solid 6px black;
+	text-indent:7px;
+	font-size:23px;
+	border-bottom:solid 2px lightgray;
+	margin:0 0 3px 0;
+}
+.menu li a{
+	display:block;
+}
+.menu li a:hover{
+	background-color:lightgray;
+}
+.menu p{
+	background-color:black;
+	color:white;
+	margin-left:0;
+	text-indent:10px;
+	font-size:25px;
+}
+.contents{
+	margin:0 80px 0 0;
+	overflow:auto;
+}
+.contents h1{
+	font-size:25px;
+  	padding:10px 15px;
+  	background-color:#f6f6f6;
+  	border-top:2px solid #ccc;
+  	border-bottom:2px solid #ccc;
+}
+.contents p{
+	lint-height:1.5;
+	width:75%;
+}
+.part1{
+	min-height:250px;
+}
+.part1 .photo img,.part2 .photo img{
+	margin:0;
+	float:right;
+}
+.graph img{
+	width:550px;
+	margin:0;
+	padding:20px;
+	border:1px solid black;
+}
+.photo img{
+	padding-top:20px;
+	height:225px;
+	margin:0 15px 0 0;
+}
+.photo_tate img{
+	width:200px;
+	margin:0 25px 0 0;
+	float:left;
+}
+video{
+	width:600px;
+	margin:0;
+}
+footer{
+	position:absolute;
+	bottom: 0;
+	height:100px;
+	width:100%;
+	margin:0;
+	background-color:#333333;
+}
+.emp1{
+	margin:0;
+	background: linear-gradient(transparent 50%, yellow 50%);
+}
+.emp2{
+	margin:0;
+	font-size:23px;
+	color:red;
+}
+.contents a{
+	font-size:23px;
+}
+.pagetop {
+	position: fixed;
+	bottom: 80px;
+	right: 20px;
+}
+.pagetop img{
+	width:75px;
+	margin:0;
+}
+.photo_top img{
+	width:480px;
+	float:right;
+}
+.box{
+	padding:0;
+	margin:0;
+	border-top:dashed 2px gray;
+	border-bottom:dashed 2px gray;
+}
+.arrange{
+	display:inline-block;
+	width:4em;
+	text-align:center;
+}
+.point_box{
+    position: relative;
+    margin: 2em 0;
+    padding: 0.5em 1em;
+    border: solid 3px #62c1ce;
+    width:400px;
+}
+.point_box .box_title{
+    position: absolute;
+    display: inline-block;
+    top: -27px;
+    left: -3px;
+    padding: 0 9px;
+    height: 25px;
+    line-height: 25px;
+    vertical-align: middle;
+    font-size: 17px;
+    background: #62c1ce;
+    color: #ffffff;
+    font-weight: bold;
+    border-radius: 5px 5px 0 0;
+}
+.point_box li{
+	font-size:23px;
+}
+.box_photo{
+	height:300px;
+}
+.a_font a{
+	line-height:1.5;
+	font-size:18px;
+}
+h2{
+  position: relative;
+  padding: .25em 0 .5em .75em;
+  border-left: 6px solid #ccc;
+}
+h2::before{
+  position: absolute;
+  left: -6px;
+  bottom: 0;
+  content: '';
+  width: 6px;
+  height: 50%;
+  background-color: #3498db;
+}
+h2::after{
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  content: '';
+  width: 100%;
+  height: 0;
+  border-bottom: 1px solid #ccc;
+}
+.box_tenpo li{
+	font-size:25px;
+}
+.box_tenpo .box{
+	width:800px;
+}
+.box_tenpo iframe{
+	margin-right:200px;
+	float:right;
+}
